@@ -12,7 +12,7 @@ void isUniq(char arr[],int  len)
            if(arr[i]==arr[j])
                 break;
         if(i==j)
-         printf("%c",arr[I]);
+         printf("%c",arr[i]);
 }
 
 
