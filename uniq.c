@@ -7,11 +7,12 @@ void isUniq(char arr[],int  len)
 
     for(int i=0;i<len;i++)
     {
-        while(i<len&& arr[i]==arr[i+1])
-            i++;
-
-        printf("%c",arr[i]);
-    }
+        int j;
+       for(j=0;j<i;j++)
+           if(arr[i]==arr[j])
+                break;
+        if(i==j)
+         printf("%c",arr[I]);
 }
 
 
